@@ -1,8 +1,6 @@
-import React from "react";
-
-export default function TaskCard({ task, onDelete, onEdit }) {
+export default function TaskCard({ task, onEdit, onDelete }) {
   return (
-    <div className="border p-4 rounded-lg shadow-sm bg-white flex justify-between items-center hover:shadow-md transition">
+    <div className="border bg-white p-4 rounded-lg shadow-sm flex justify-between items-center hover:shadow-md transition">
       <div>
         <h3 className="text-lg font-semibold text-gray-800">{task.title}</h3>
         <p className="text-gray-600">{task.description}</p>
