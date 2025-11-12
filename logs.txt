@@ -1,0 +1,25 @@
+=== FRONTEND DEVELOPER TASK LOGS ===
+
+[✔] Server Started:
+> npm run server
+Server running on port 5000
+MongoDB Connected: cluster0.xxxxx.mongodb.net
+
+[✔] Frontend Started:
+> npm run dev
+VITE v5.0.0  ready in 350 ms
+Local:  http://localhost:5173/
+
+[✔] API Test Results:
+POST /api/auth/register → 201 Created
+POST /api/auth/login → 200 OK
+GET /api/tasks → 200 OK
+POST /api/tasks → 201 Created
+PUT /api/tasks/:id → 200 OK
+DELETE /api/tasks/:id → 200 OK
+
+[✔] Dashboard Features:
+- User login/logout works
+- CRUD operations on tasks working
+- Profile display successful
+- Search & filter functional
