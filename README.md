@@ -24,9 +24,10 @@ It includes authentication, dashboard, and CRUD operations with JWT security.
 cd backend
 npm install
 npm run server
-
+```
 ### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
+```
